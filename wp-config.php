@@ -20,13 +20,14 @@
 
 // ** Параметры MySQL: Эту информацию можно получить у вашего хостинг-провайдера ** //
 /** Имя базы данных для WordPress */
-define( 'DB_NAME', 'u3677576_net' );
+
+define( 'DB_NAME', 'net' );
 
 /** Имя пользователя MySQL */
-define( 'DB_USER', 'u3677576_net' );
+define( 'DB_USER', 'root' );
 
 /** Пароль к базе данных MySQL */
-define( 'DB_PASSWORD', 'nikusia220506' );
+define( 'DB_PASSWORD', '' );
 
 /** Имя сервера MySQL */
 define( 'DB_HOST', 'localhost' );
@@ -36,7 +37,6 @@ define( 'DB_CHARSET', 'utf8mb4' );
 
 /** Схема сопоставления. Не меняйте, если не уверены. */
 define( 'DB_COLLATE', '' );
-
 /**#@+
  * Уникальные ключи и соли для аутентификации.
  *
